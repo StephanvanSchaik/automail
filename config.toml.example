@@ -1,3 +1,8 @@
+[ssl]
+key = "/etc/letsencrypt/live/example.com/privkey.pem"
+cert = "/etc/letsencrypt/live/example.com/cert.pem"
+chain = "/etc/letsencrypt/live/example.com/chain.pem"
+
 [[domain]]
 domain = "example.com"
 name = "Mail"

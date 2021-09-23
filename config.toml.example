@@ -1,0 +1,46 @@
+[[domain]]
+domain = "example.com"
+name = "Mail"
+short_name = "Mail"
+
+[[domain.server]]
+protocol = "imap"
+hostname = "imap.example.com"
+port = 993
+auth = "plain"
+encrypt = "ssl"
+
+[[domain.server]]
+protocol = "imap"
+hostname = "imap.example.com"
+port = 143
+auth = "plain"
+encrypt = "starttls"
+
+[[domain.server]]
+protocol = "pop3"
+hostname = "pop3.example.com"
+port = 995
+auth = "plain"
+encrypt = "ssl"
+
+[[domain.server]]
+protocol = "pop3"
+hostname = "pop3.example.com"
+port = 110
+auth = "plain"
+encrypt = "starttls"
+
+[[domain.server]]
+protocol = "smtp"
+hostname = "smtp.example.com"
+port = 465
+auth = "plain"
+encrypt = "ssl"
+
+[[domain.server]]
+protocol = "smtp"
+hostname = "smtp.example.com"
+port = 587
+auth = "plain"
+encrypt = "starttls"
